@@ -35,7 +35,6 @@ bot.on("message", async (msg) => {
     );
   }
 
-
   if (msg?.web_app_data?.data) {
     try {
       const data = JSON.parse(msg?.web_app_data?.data)
